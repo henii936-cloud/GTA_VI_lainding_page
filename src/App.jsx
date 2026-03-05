@@ -2,6 +2,7 @@ import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import Navbar from "./Sections/Navbar";
 import Hero from "./Sections/Hero";
+import ComingSoon from "./Sections/ComingSoon";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -10,6 +11,7 @@ const App = () => {
     <main>
       <Navbar />
       <Hero />
+      <ComingSoon />
     </main>
   );
 };

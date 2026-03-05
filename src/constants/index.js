@@ -1,9 +1,9 @@
 import { useMediaQuery } from "react-responsive";
 
 export const useMaskSettings = () => {
-  const isMobile = useMediaQuery({ query: "(maxWidth: 768)" });
+  const isMobile = useMediaQuery({ query: "(max-width: 768px)" });
   const isTablet = useMediaQuery({
-    query: "(minWidth: 769) and (maxWidth: 1024)",
+    query: "(min-width: 769px) and (max-width: 1024px)",
   });
 
   if (isMobile) {
